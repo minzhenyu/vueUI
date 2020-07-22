@@ -6,11 +6,11 @@ import TodoList from './components/TodoList.vue'
 import Header from './components/Header.vue'
 import Try from './components/Try.vue'
 import HelloWorld from './components/HelloWorld.vue'
-import UI from './components/UI.vue'
+
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-Vue.config.productionTip = false
+import UI from './components/UI.vue'
 Vue.use(ElementUI);
 Vue.use(VueRouter)
 Vue.use(Vuex)
